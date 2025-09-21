@@ -96,7 +96,7 @@ export default function MainNav() {
       <NavList>
        {navigation.map((navLink, index) => (
          <li key={`${navLink.name + index}`}>
-          <StyledNavLink href={navLink.link} className={`${pathname.startsWith(navLink.link)? "bg-gray-200": ""}`}>
+          <StyledNavLink href={navLink.link} className={` ${pathname.startsWith(navLink.link)? "bg-gray-200 text-black": ""}`}>
            {navLink.icon}
             <span>{navLink.name}</span>
           </StyledNavLink>
