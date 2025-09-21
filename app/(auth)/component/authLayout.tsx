@@ -9,7 +9,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
 
   return (
     <div className="w-screen h-screen flex">
-      {pathname.startsWith('role') && (
+      {!pathname.startsWith('role') && (
         <Card
           sx={{
             height: '100%',
