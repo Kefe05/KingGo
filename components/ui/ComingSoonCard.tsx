@@ -12,7 +12,7 @@ import {
   Stack,
   Chip,
 } from '@mui/material';
-import { AccessTime, FlashOn, Star, Construction, FlashOnTwoTone } from '@mui/icons-material';
+import { AccessTime, FlashOn, Star, Construction } from '@mui/icons-material';
 
 interface ComingSoonCardProps {
   title?: string;

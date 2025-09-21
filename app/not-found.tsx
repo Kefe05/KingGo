@@ -1,10 +1,10 @@
 'use client';
 import React from 'react';
 import NotFoundCard from '@/components/ui/NotFoundCard';
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 
 export default function NotFound() {
-  const router = useRouter();
+  // const router = useRouter();
   return (
     <NotFoundCard
       title="404 - Page Not Found"

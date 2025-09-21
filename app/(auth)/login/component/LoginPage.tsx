@@ -120,7 +120,7 @@ export default function LoginPage() {
           </Stack>
 
           <p className="text-center mt-5">
-            Don't have an account,{' '}
+            Don&apos;t have an account,{' '}
             <Link
               href={'/register'}
               className={'text-stone-500 hover:underline transistion-all'}

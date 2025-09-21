@@ -1,7 +1,7 @@
 "use client"
 import styled from 'styled-components';
 import Link from 'next/link';
-import { HiOutlineHome, HiOutlineUsers } from 'react-icons/hi';
+import { HiOutlineHome } from 'react-icons/hi';
 import { RiHistoryFill } from "react-icons/ri";
 import { IoStatsChartOutline } from "react-icons/io5";
 import { IoIosNotificationsOutline } from "react-icons/io";
